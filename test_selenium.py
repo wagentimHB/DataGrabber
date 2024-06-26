@@ -1,5 +1,5 @@
-import unittest
-from driver.selenium import Selenium
+import unittest#
+from driver.driver import Selenium
 
 class TestSelenium(unittest.TestCase):
 
