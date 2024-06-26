@@ -1,4 +1,4 @@
-from helper.validator import Validator
+from  datagrabber.helper.validator import Validator
 
 class DBHandler:
 

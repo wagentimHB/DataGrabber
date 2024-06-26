@@ -1,7 +1,8 @@
-from dbhandler import DBHandler
+#from dbhandler import DBHandler
 import sqlite3
+from dbhandler import DBHandler
 
-class SqliteHandler(DBHandler):
+class Test(DBHandler):
 
     def __init__(self) -> None:
         super().__init__()
@@ -12,3 +13,6 @@ class SqliteHandler(DBHandler):
         
         self.conn = sqlite3.connect(dbPath)
         self.cursor = self.conn.cursor()
+
+test = Test()
+test.connect("")

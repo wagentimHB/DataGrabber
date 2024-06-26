@@ -5,7 +5,7 @@ class Validator:
     def __init__(self) -> None:
         pass
 
-    def isEmptyString(input):
+    def isEmptyString(self, input):
         if input is None:
             return True
         
