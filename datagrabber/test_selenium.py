@@ -1,5 +1,5 @@
 import unittest#
-from driver.driver import Selenium
+from datagrabber.driver import Selenium
 
 class TestSelenium(unittest.TestCase):
 

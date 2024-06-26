@@ -1,6 +1,6 @@
 #from dbhandler import DBHandler
 import sqlite3
-from datagrabber.helper.validator import Validator
+from datagrabber.validator import Validator
 
 class SqliteHandler():
 
